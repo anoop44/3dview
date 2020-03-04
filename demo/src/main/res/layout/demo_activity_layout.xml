@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:divider="@drawable/divider"
+    android:background="#fff">
+
+    <ss.anoop.threedview.ThreeDView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:x="-5dp"
+        app:y="-5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Left"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:background="#bf00"
+            />
+
+    </ss.anoop.threedview.ThreeDView>
+
+    <ss.anoop.threedview.ThreeDView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:x="5dp"
+        app:y="-5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Right"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:background="#bf00"
+            />
+
+    </ss.anoop.threedview.ThreeDView>
+
+    <ss.anoop.threedview.ThreeDView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:x="-5dp"
+        app:y="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Left"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:background="#bf00"
+            />
+
+    </ss.anoop.threedview.ThreeDView>
+
+    <ss.anoop.threedview.ThreeDView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:x="5dp"
+        app:y="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Right"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:background="#bf00"
+            />
+
+    </ss.anoop.threedview.ThreeDView>
+
+</LinearLayout>
