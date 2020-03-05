@@ -4,7 +4,7 @@ A simple ViewGroup that adds 3d appearance to your view. It creates a [Cuboid](h
 The 3d appearance can be configured to display on top right / top left / bottom right / bottom left. [Customization](https://github.com/anoop44/3dView#customization) section describes how to do that
 
 ### Demo
-![gif of AwesomeTextInputLayout](https://raw.githubusercontent.com/anoop44/3dView/master/art/3dview.jpg)
+![Screenshot of 3dView demo](https://raw.githubusercontent.com/anoop44/3dView/master/art/3dview.png)
 
 
 
@@ -35,7 +35,7 @@ dependencies {
          app:x="5dp"
          app:y="-5dp">
 
-         <!-- Your View Goes here --/>
+         <!-- Your View Goes here -- />
 
     </ss.anoop.threedview.ThreeDView>
 ```
