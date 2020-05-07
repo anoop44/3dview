@@ -1,5 +1,5 @@
 # 3dView 
-[ ![Download](https://api.bintray.com/packages/anoop44/maven/awesome-textinput-layout/images/download.svg?version=1.0.0) ](https://bintray.com/anoop44/maven/awesome-textinput-layout/1.0.0/link) <a href="https://android-arsenal.com/api?level=14"><img alt="API" src="https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat"/></a>
+[ ![Download](https://api.bintray.com/packages/anoop44/maven/3dview/images/download.svg?version=1.0.0) ](https://bintray.com/anoop44/maven/3dview/1.0.0/link) <a href="https://android-arsenal.com/api?level=14"><img alt="API" src="https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat"/></a>
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-3dView-green.svg?style=flat )]( https://android-arsenal.com/details/1/8050 )
 
 A simple ViewGroup that adds 3d appearance to your view. It creates a [Cuboid](https://www.mathsisfun.com/geometry/cuboids-rectangular-prisms.html) shape and place the child in front
@@ -13,7 +13,7 @@ The 3d appearance can be configured to display on top right / top left / bottom 
 ## Adding to project
 
 ### Gradle
-Add below code to your **root** `build.gradle` file (if you have multiple modules and only one of them require `AwesomeNavigation`, add the `jcenter()` repository only in that module's `build.gradle`).
+Add below code to your **root** `build.gradle` file (if you have multiple modules and only one of them require `3dView`, add the `jcenter()` repository only in that module's `build.gradle`).
 ```gradle
 allprojects {
     repositories {
@@ -24,7 +24,7 @@ allprojects {
 And add the following dependency code to your **module**'s `build.gradle` file.
 ```gradle
 dependencies {
-    implementation "ss.anoop:awesome-textinput-layout:${latest-version}"
+    implementation "ss.anoop:3dview:${latest-version}"
 }
 ```
 `3dView` is added a the immediate parent of the view you want to decorate. Below is a simple example
